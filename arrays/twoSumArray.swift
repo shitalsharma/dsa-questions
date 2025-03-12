@@ -2,7 +2,7 @@
 // Ex: twoSum([2,7,11,15], 9)
 // Time Complexity: O(n)
 
-
+import Foundation
 
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     var map = [Int: Int]() // Dictionary to store seen numbers
